@@ -1,0 +1,19 @@
+dependencies:
+  - base
+
+executable:
+  dependencies:
+    - project
+  source-dirs: exec
+  main: Main.hs
+
+library:
+  source-dirs: lib
+  exposed-modules:
+    - ExposedModule
+  other-modules:
+    - OtherModule
+
+name: project
+
+version: 0.0.1
