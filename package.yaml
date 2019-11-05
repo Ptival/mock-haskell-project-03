@@ -4,10 +4,13 @@ dependencies:
 executable:
   dependencies:
     - project
+    - time
   source-dirs: exec
   main: Main.hs
 
 library:
+  dependencies:
+    - containers
   source-dirs: lib
   exposed-modules:
     - ExposedModule
